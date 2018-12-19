@@ -42,9 +42,9 @@ int main()
 }
 int stringLength(char buf[])
 {
-	int i;
-	for(i=0;buf[i]!='\0';i++);
-	return i;
+	int i;                               //int count;                    /**************************************
+	for(i=0;buf[i]!='\0';i++);           //while(buf[count]!='\0')         ALTERNATIVE CODE
+	return i;                            //++count;  return count;       ***************************************/
 }
 void stringAdd(char buf1[],char buf2[])
 {
